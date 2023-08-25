@@ -67,7 +67,7 @@ button.addEventListener('click', (e) => {
     check(e.target.id)
 })
 
-var score = 0    
+let score = 0    
 
 function check(i){
     if(i == "plus" && operation == '+' ||  i == 'minus' && operation == '-' ||  i == 'mul' && operation == '*' ||  i == 'divide' && operation == '/' ||  i == 'modulus' && operation == '%'){
@@ -85,7 +85,7 @@ var timeLeft = 20;
 
 function updateTimer() {
     stopWatch.textContent = timeLeft;
-    timeLeft--;
+    timeLeft--;cdffff
 
     if(timeLeft==0){
         gameover()
